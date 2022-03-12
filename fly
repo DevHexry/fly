@@ -37,7 +37,7 @@ function endFlying()
 end
 
 uis.InputBegan:connect(function(input)
-	if input.KeyCode == Enum.KeyCode.E then
+	if input.KeyCode == Enum.KeyCode.Space then
 		if not flying then
 			fly()
 		else
